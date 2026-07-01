@@ -19,7 +19,7 @@ NC='\033[0m' # No Color
 
 # ---------- 配置变量 ----------
 USER_HOME="/home/uos"          # 目标用户主目录（可根据需要改为 $HOME）
-CONFIG_DIR="$USER_HOME/.config/ClassIsland"
+CONFIG_DIR="$USER_HOME/.config"
 BACKUP_SUFFIX=".backup.$(date +%Y%m%d%H%M%S)"
 TAR_FILE="./clc.tar"           # 压缩包路径（相对于脚本执行目录）
 
